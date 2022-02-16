@@ -6,6 +6,8 @@ stage('Hello World') {
 }
 
 stage('deploy') {
-  cloudFoundryDeploy script: this
+  node() {
+    cloudFoundryDeploy script: this
+  }
 }
  
