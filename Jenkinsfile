@@ -1,5 +1,5 @@
 
-@Library('piper-library-os') _
+@Library('piper-lib-os') _
 
 stage('Hello World') {
   echo "Hello World"
